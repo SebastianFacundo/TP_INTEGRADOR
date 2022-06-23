@@ -1,11 +1,67 @@
 
+
+
+header {
+    height:60px ;
+}
 .carousel-item img{
     
     filter: brightness(40%);
 }
 
+footer{
+    background-image: linear-gradient(to right, #044D63   ,#076E8E  );
+
+}
+
+.total{
+   background-color: #9EDBEE ;
+   border: none;
+   border-radius: 10px ;
+}
 
 
 
+@media only screen and (min-width:1100px){
 
+    .carousel {
+        position:relative;
+    }
+
+    .descripcion {
+        position:absolute;
+        color:white;
+        width: 50%;
+        margin-top: -40%; 
+        margin-left:50%;
+        text-align: end;
+  
+
+    }
+
+}
+
+@media only screen and (max-width:1100px){
+
+.descripcion{
+    text-align: center;
+    
+}
+.descripcion h5{
+    display: inline;
+    background-color: #F1C40F  ;
+    border-radius: 8px;
+}
+
+.descripcion p{
+   font-weight:500;
+}
+
+.btn-orador{
+    border: 2px solid #A2A5A6 ;
+    color: black;
+   
+}
+
+}
 
